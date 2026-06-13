@@ -59,5 +59,42 @@ int main()
 
     cout << "\nPrecio promedio: S/ " << promedio << endl;
 
+    cout << "\n=== ANALISIS DEL MENU ===" << endl;
+
+if (promedio <= 10)
+{
+    cout << "Tipo de menu: Economico" << endl;
+}
+else if (promedio <= 20)
+{
+    cout << "Tipo de menu: Accesible" << endl;
+}
+else if (promedio <= 30)
+{
+    cout << "Tipo de menu: Estándar" << endl;
+}
+else
+{
+    cout << "Tipo de menu: Premium" << endl;
+}
+
+cout << "\n=== RECOMENDACION ===" << endl;
+
+if (promedio <= 10)
+{
+    cout << "Agregar combos económicos o promociones." << endl;
+}
+else if (promedio <= 20)
+{
+    cout << "Mantener precios accesibles para clientes frecuentes." << endl;
+}
+else if (promedio <= 30)
+{
+    cout << "Buen equilibrio entre calidad y precio." << endl;
+}
+else
+{
+    cout << "Menu premium dirigido a clientes exclusivos." << endl;
+}
     return 0;
 }
